@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <!-- Vinculación de CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <textarea id="input-text" placeholder="Ingrese su texto aquí..." rows="5"></textarea>
+        <div class="buttons">
+            <button id="encrypt-btn">Encriptar</button>
+            <button id="decrypt-btn">Desencriptar</button>
+        </div>
+        <textarea id="output-text" placeholder="Resultado..." rows="5" readonly></textarea>
+        
+        <!-- Contenedor para la imagen -->
+        <div id="image-container">
+            <img id="result-image" src="" alt="" style="display: none;">
+        </div>
+    </div>
+
+    <!-- Vinculación de JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+
+</html>
